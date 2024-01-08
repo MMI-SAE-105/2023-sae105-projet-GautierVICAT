@@ -2,3 +2,5 @@
 @import url(layout/normalise.css);
 @import url(utils/variables.css);
 @import url(components/cardA.css);
+@import url(main/home.css);
+@import url(base/body.css);

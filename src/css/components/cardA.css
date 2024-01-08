@@ -23,6 +23,7 @@
 .cardA img{
     height: auto;
     width: 100%;
+    border-radius: 20px;
 }
 .cardA h2{
     font-size:var(--title-a) ;
