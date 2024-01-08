@@ -1,0 +1,20 @@
+:root{
+    /* Color styles */
+--noir: #000000;
+--gris1: #E7E7E7;
+--blanc: #FFFFFF;
+--rouge: #FF0000;
+--jaune: #FFBD2E;
+--beige: #F5F5DC;
+
+/* Text-size styles */
+--header-1: 32px;
+--header-2: 24px;
+--header-3: 24px;
+--body: 14px;
+--body-m: 12px;
+--title-a: 12px;
+--body-a: 10px;
+--title-error: 32px;
+--bouton-body: 14px;
+}

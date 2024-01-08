@@ -1,0 +1,21 @@
+.cardA{
+    background-color: var(--noir);
+    color: var(--blanc);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.cardA a{
+    display: block;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    background-color: var(--rouge);
+    text-decoration: none;
+    color: var(--blanc);
+    border-radius: 50px;
+    margin:10px;
+}
+.cardA img{
+    
+}
