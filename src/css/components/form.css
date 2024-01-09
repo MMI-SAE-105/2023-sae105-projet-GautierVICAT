@@ -1,0 +1,44 @@
+.aboutTitle, .aboutText {
+    font-family: var(--tf);
+    color: var(--noir);
+    margin: 10px;
+}
+.aboutTitle{
+    font-size: var(--h2);
+    font-weight: 700;
+}
+.aboutText{
+    font-size: var(--b2);
+    font-weight: 400;
+}
+.form {
+    background-color: var(--beige);
+    padding: 20px;
+}
+
+.formItem {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-family: var(--tf);
+    font-size: var(--b2);
+    color: var(--rouge);
+}
+
+.formBox {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: var(--noir);
+    border-width: 5px;
+    border-radius: 20px;
+    background-color: var(--beige);
+}
+.formBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--rouge);
+}
