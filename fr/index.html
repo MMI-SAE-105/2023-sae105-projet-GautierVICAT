@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morpalm</title>
     <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
     <header>
-        <section class="header-bar">
-            <a href="index.html" class="header-title">MORPALM</a>
-            <a href="#" class="header-l"><img src="../public/img/Langue 1.svg" alt="langue français"></a>
-        </section>
+        <div class="navbar">
+            <div class="navbar__title">
+                <a href="index.html">MORPALM</a>
+            </div>
+            <div class="navbar__btn">
+                <a href="/en/index.html"><img src="/public/img/Langue 1.svg" alt="Langue du site"></a>
+                <button class="navbar__btn-menu" :class="navmenu && 'navbar__btn-open'"
+                    @click="navmenu = ! navmenu">
+                    <span class="navbar__btn-line line1"></span>
+                    <span class="navbar__btn-line line2"></span>
+                    <span class="navbar__btn-line line3"></span>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar-menu" x-show="navmenu" x-collapse.duration.500ms>
+            <ul class="navbar__links">
+                <li><a href="/fr/articles/replica.html">Réplique</a></li>
+                <li><a href="/fr/articles/movie.html">The End of Evangelion</a></li>
+                <li><a href="/fr/articles/director.html">Hideaki Anno</a></li>
+                <li><a href="/fr/articles/music.html">KOMM, SÜSSER TOD</a></li>
+                <li><a href="/fr/articles/book.html">Neon Genesis Evangelion</a></li>
+                <li><a href="/fr/filmography.html">Filmographie</a></li>
+                <li><a href="/fr/bibliography.html">Bibliographie</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="home">
